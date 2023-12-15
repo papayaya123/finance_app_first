@@ -7,7 +7,7 @@ const outDir = resolve(__dirname, 'docs')
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/financez_tech/',
+  base: '/financial_app_2/',
   build: {
     outDir,
     emptyOutDir: true
