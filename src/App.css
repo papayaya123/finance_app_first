@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ffa500;
+  padding: 20px;
+  color: white;
+}
+
+.search-profile-area {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-profile-area input {
+  padding: 10px;
+  font-size: 1em;
+  width: 70%;
+}
+
+.profile-button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.category-scroller {
+  display: flex;
+  overflow-x: auto;
+}
+
+.category-item {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
+.featured-tours h2 {
+  text-align: left;
+}
+
+.tour-list {
+  display: flex;
+  justify-content: start;
+  overflow-x: auto;
+}
+
+.tour-item {
+  width: 200px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.tour-item img {
+  width: 100%;
+  height: auto;
+}
+
+.tour-info {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+}
